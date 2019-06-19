@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <title>Intro to JavaScript</title>
+    <script>
+      // Builds function.
+      // Takes one parameter.
+      function sayHello(who) {
+
+        // Outputs to the console.
+        document.write("hello, " + who);
+
+      }
+    </script>
+  </head>
+  <body>
+    <script>
+
+      // Initializes variables.
+      var words = "This is";
+      var moreWords = " a sentence";
+      var num1 = 5;
+      var num2 = 3;
+      var alpha = "ABCDEFG";
+      var text = "";
+
+      // Initializes array.
+      var a = ["dog", "cat", "monkey"];
+
+      // Concatenes variables.
+      // Stores output in the variable sentence.
+      var sentence = words + moreWords;
+
+      // Adds integers,
+      // stores output in the variable total.
+      var total = num1 + num2;
+
+      // Property call
+      // using object name.
+      // Stores output in the variable length.
+      var length = alpha.length;
+
+      // Method call
+      // using object name.
+      // Stores output in the variabe result.
+      var result = alpha.substring(0, 5);
+
+      // Outputs to the console.
+      document.write(sentence);
+      document.write("<br>" + "The sum is " + total);
+      document.write("<br>" + length);
+      document.write("<br>" + result);
+
+      // Builds for loop.
+      for(var i = 0; i < a.length; i++) {
+
+        document.write("<br>" + a[i]);
+
+      }
+
+      // Outputs empty line.
+      document.write("<br>");
+
+      // Function call.
+      // Takes one parameter.
+      sayHello("Bob");
+      // Outputs empty line.
+      document.write("<br>");
+      // Function call.
+      // Takes one parameter.
+      sayHello("Mary");
+
+    </script>
+  </body>
+</html>
